@@ -1,0 +1,38 @@
+#login-form {
+  color: white;
+  font-size: 100px;
+  font-weight: 300;
+  position: absolute;
+  height: 45%;
+  bottom: 0;
+}
+
+#login-form input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 30px;
+}
+
+#login-form input:first-child {
+  width: 370px;
+  height: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255);
+}
+
+#login-form input:first-child::placeholder {
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#login-form input:last-child {
+  width: 110px;
+  height: 59px;
+  font-size: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 17px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}

@@ -1,0 +1,10 @@
+#greeting {
+  color: white;
+  display: block;
+  font-size: 100px;
+  font-weight: 300;
+  position: absolute;
+  height: 45%;
+  bottom: 0;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
